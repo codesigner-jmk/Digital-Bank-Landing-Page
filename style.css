@@ -18,8 +18,8 @@ body{
     background: linear-gradient(3deg,rgba(44, 182, 216, 1) 0%, rgba(50, 210, 93, 1) 100%);
     border: none;
     border-radius: 50rem;
-    padding: 0.6rem 2rem;
-    font-weight: 600;
+    padding: 0.55rem 1.8rem;
+    font-weight: 400;
 }
 
 .phone-mockup{
