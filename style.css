@@ -8,13 +8,28 @@ body{
     background-color: hsl(0, 0%, 98%);
 }
 
+.nav-item a{
+    padding-inline: 2rem;
+    font-weight: 600;
+}
+
+
 .btn-primary{
     background: linear-gradient(3deg,rgba(44, 182, 216, 1) 0%, rgba(50, 210, 93, 1) 100%);
     border: none;
     border-radius: 50rem;
-    padding: 0.75rem 2rem;
-    font-size: 1rem;
+    padding: 0.6rem 2rem;
     font-weight: 600;
+}
+
+.phone-mockup{
+    background-image: url("./images/bg-intro-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.phone-mockup img{
+    margin-top: -4.3rem;
 }
 
 h1, h2, h3, h5{
@@ -29,10 +44,6 @@ h1{
 h2{
     font-size: 1.80rem;
     font-weight: 400;
-}
-
-h3{
-    font-size: 1rem;
 }
 
 .why-choose{
